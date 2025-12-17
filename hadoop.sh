@@ -81,5 +81,4 @@ ssh -o StrictHostKeyChecking=no localhost echo "SSH connection success."
 start-dfs.sh
 start-yarn.sh
 
-hadoop fs -mkdir /user
-hadoop fs -mkdir /user/$USER
+~/hadoop-2.7.0/bin/hdfs dfs -mkdir /user1
