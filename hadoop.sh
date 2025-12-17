@@ -1,6 +1,5 @@
 !/bin/bash
 
-sudo apt update
 sudo apt install -y ssh
 
 JDK_TARBALL=~/Downloads/jdk-8u45-linux-x64.tar.gz
